@@ -1,4 +1,4 @@
-﻿# Question 4
+﻿# Question 5
 You can do 3 types of edits to a string: insert, remove, replace. Given 2 strings check to see if they are one edit away.
 
 _input_ -> _output_: ```ple, pale``` -> ``` true```
@@ -14,6 +14,4 @@ _input_ -> _output_: ```pale, bae``` -> ``` false```
     * If not, then increment a counter by one. If the counter is already one, then return false. Continue.
 * Time Complexity: O(n)   
 
-# CCI Answer
-* The first solution happens to be the Brute Force since you'll have to go through all of the items in the input string. But you can make small optimizations to the code.
 
